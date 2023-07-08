@@ -741,6 +741,8 @@ LatestMapModeTime()
 
 LatestGameDEL()
 {
+	;Have to add a msgbox to ask user if he is sure to delete the Match
+
 	;MsgBox, Do you really want to delete the Game Data for 
 	;delete latest Stats
 	if (FileExist(ScoreFolder LatestGame))
